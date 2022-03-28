@@ -50,9 +50,76 @@ header .navbar ul li a:hover {
 .font1 {
   text-align: left;
   margin-top: 100px;
-  margin-right: 500px;
+  margin-right: 450px;
   margin-bottom: 25px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
+  color: #00a2ff;
+}
+
+.achievement {
+  width: 25%;
+  float: left;
+  margin-left: 80px;
+}
+
+.achievement img {
+  width: 255px;
+  height: 255px;
+  margin-left: 30px;
+}
+
+.achievement h1 {
+  text-align: center;
+}
+
+.achievement h2 {
+  text-align: center;
+}
+
+.achievement p {
+  text-align: center;
+  width: 90%;
+}
+
+.point {
+  margin-top: 500px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.title p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.support img {
+  width: 150px;
+  height: 150px;
+}
+
+.paragraph {
+  float: left;
+}
+
+.paragraph h1 {
+  font-size: 30px;
+}
+
+.btn {
+  color: black;
+  background-color: #00a2ff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 500px;
+  font-size: large;
+  font-weight: 600;
+  margin: 0 45%;
 }
 
