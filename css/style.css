@@ -86,9 +86,14 @@ header .navbar ul li a:hover {
   margin-top: 500px;
 }
 
+.title {
+  margin-bottom: 30px;
+}
+
 .title h1 {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .title p {
@@ -96,17 +101,31 @@ header .navbar ul li a:hover {
   font-size: 25px;
 }
 
+.supports {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.support {
+  height: 250px;
+}
+
 .support img {
   width: 150px;
   height: 150px;
+  float: left;
+  margin: 5%;
 }
 
 .paragraph {
+  width: 70%;
   float: left;
 }
 
 .paragraph h1 {
   font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -120,6 +139,58 @@ header .navbar ul li a:hover {
   width: 500px;
   font-size: large;
   font-weight: 600;
-  margin: 0 45%;
+  margin: 0 400px;
 }
 
+.contact {
+  width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contact-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-item,
+.contact-body {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-item {
+  text-align: left;
+  width: 30%;
+  background-color: #eee;
+}
+
+.contact-body {
+  width: 70%;
+}
+
+.form-text {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  max-width: 400px;
+}
+
+.form-textarea {
+  width: 90%;
+  padding: 10px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+} 
+
+.contact-table th {
+  
+}
